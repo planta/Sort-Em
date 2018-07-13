@@ -120,8 +120,6 @@ class GameScene: SKScene, GKGameCenterControllerDelegate {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        print("touch")
-        
         for touch: AnyObject in touches {
             let touchLocation = touch.location(in: self)
             
